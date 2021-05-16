@@ -1,6 +1,6 @@
 body{
       -ms-overflow-style: none;
-
+     /* padding-bottom: 200px; */
 }
 
 body::-webkit-scrollbar {
@@ -36,6 +36,7 @@ li a{
 
 li a:hover{
     color: rgb(4, 53, 4);
+    text-decoration: underline;
 }
 
 .active{
@@ -90,13 +91,13 @@ nav{
     font-weight: 300;
     width: 400px;
     line-height: 28px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .btn--learnmore{
     margin-top: 30px;
-}
-
+    background: linear-gradient(45deg, #236B28, #3C9B41);
+} 
 
 .svgblob{
     display: none;
@@ -104,7 +105,7 @@ nav{
 
 
 .section--2{
-    height: 400px;
+    height: 450px;
     background: linear-gradient(160deg, #256E2A, #3C9B41);
     margin-top: 100px;
     border: none;
@@ -123,12 +124,130 @@ font-weight: 600;
 }
 
 .section--2_right{
-    font-size: 14px;
     font-weight: 300;
     padding-top: 20px;
-    
 }
 
+.section--2_right h3{
+        font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.whitebutton{
+    background: white;
+    border: none;
+    padding: 9px 21px;
+    font-size: 13px;
+    margin-top: 13px;
+    border-radius: 2px;
+}
+
+.section--3{
+    height: 450px;
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.handphone{
+    width: 255px;
+}
+
+.section--3 h3{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.section--3 div h4{
+    font-size: 14px;
+    width: 309px;
+    margin-top: 30px;
+    font-weight: 300;
+    line-height: 22px;
+ }
+
+ .section--3_left{
+     margin-top: 40px;
+ }
+
+
+.section--3_right{
+    margin-top: 20px;
+}
+
+.svgblob--2{
+    display: none;
+}
+
+
+.whatweoffer{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.offers{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 70px;
+     
+}
+
+.offer--img{
+    width: 130px;
+}
+
+.section--4{
+    height: 400px;
+    margin-bottom: -20px;
+}
+
+.trash{
+    width: 100px;
+}
+
+.cash{
+    width: 105px;
+}
+
+.offers div h6{
+    font-size: 12.7px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+
+}
+
+.btn--backtotop{
+    text-align: center;
+    padding: 50px;
+ }
+
+footer{
+    margin-top: 100px;
+    height: 70px;
+    background:  linear-gradient(45deg, #236B28, #3C9B41);
+
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* --------------------------------- */
 
 
 
@@ -158,6 +277,14 @@ font-weight: 600;
  .btn--learnmore{
      margin-left: -30px;
  }
+
+  .handphone{
+    display: none;
+}
+
+.whatweoffer{
+    margin-top: 0px;
+}
  
 }
 
@@ -167,6 +294,12 @@ font-weight: 600;
 nav li a{
     display: none;
 }
+
+ .section--2_left{
+     display: none;
+ }
+
+
 }
 
 
@@ -207,11 +340,28 @@ nav li a{
    }
 
    .section--2_left{
-    padding-top: 50px;
+    padding-top: 70px;
    }
 
    .section--2_right{
-       width: 200px !important;
+       width: 395px !important;
+       margin-left: 60px;
+   }
+
+   .whitebutton{
+       margin-top: 30px;
+   }
+
+   .section--3 h3{
+     font-size: 34px;
+   }
+
+   .svgblob--2{
+    display: block;
+    width: 350px;
+    position: absolute;
+    left: 0px;
+    top: 339px;
    }
 }
  
