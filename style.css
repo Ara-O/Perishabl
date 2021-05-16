@@ -1,0 +1,60 @@
+*{
+    font-family: 'Poppins';
+}
+ 
+ul{
+    list-style-type: none;
+     
+}
+
+.logo{
+    width: 75px;
+    margin-right: 30px;
+ }
+
+li{
+ display: inline;
+ font-size: 14px;
+ color: #636363;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: green;
+}
+
+.active{
+    color: black !important;
+}
+
+.nav--item{
+     margin-left: 10%;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+.btn--download{
+    position: absolute;
+    right: 30px;
+    top: 23px;
+    background: linear-gradient(45deg, #236B28, #3C9B41);
+    color: white;
+    font-size: 13px;
+    border: none;
+    padding: 10px 20px;
+}
+
+@media(max-width:750px){
+ .btn--download{
+display: none; 
+}
+.logo{
+     margin-right:0px;
+ }
+}
