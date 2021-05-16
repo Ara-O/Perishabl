@@ -1,3 +1,13 @@
+body{
+      -ms-overflow-style: none;
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
 *{
     font-family: 'Poppins';
 }
@@ -21,10 +31,11 @@ li{
 li a{
     color: black;
     text-decoration: none;
+    font-weight: 300;
 }
 
 li a:hover{
-    color: green;
+    color: rgb(4, 53, 4);
 }
 
 .active{
@@ -36,25 +47,171 @@ li a:hover{
 }
 
 nav{
-    margin-top: 20px;
+    margin-top: 27px;
 }
 
-.btn--download{
-    position: absolute;
-    right: 30px;
-    top: 23px;
+.button{
     background: linear-gradient(45deg, #236B28, #3C9B41);
     color: white;
     font-size: 13px;
     border: none;
     padding: 10px 20px;
+    border-radius: 2px;
 }
 
-@media(max-width:750px){
- .btn--download{
-display: none; 
+.btn--download{
+    position: absolute;
+    right: 70px;
+    top: 30px;
 }
+
+
+.hero{
+    display: flex;
+    justify-content: space-around;    
+    flex-wrap: wrap-reverse;
+    margin-top: 160px;
+ }
+
+.heroimg--1{
+    width: 380px;
+}
+
+
+.hero--header{
+    width: 370px;
+    font-weight: 600;
+    font-size: 45px;
+    color: #0D0F2D
+}
+
+.hero--h3{
+    font-size: 15px;
+    font-weight: 300;
+    width: 400px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.btn--learnmore{
+    margin-top: 30px;
+}
+
+
+.svgblob{
+    display: none;
+}
+
+
+.section--2{
+    height: 400px;
+    background: linear-gradient(160deg, #256E2A, #3C9B41);
+    margin-top: 100px;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px
+    
+}
+
+.section--2_left{
+padding-top: 60px;
+font-size: 35px;
+font-weight: 600;
+
+}
+
+.section--2_right{
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 20px;
+    
+}
+
+
+
+
+
+/* NORMAL SCREEN */
+@media(max-width:800px){
+ .btn--download{
+   display: none; 
+}
+
 .logo{
      margin-right:0px;
  }
+
+ .heroimg--1{
+     display: none;
+ }
+
+ .hero{
+     margin-top: 90px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+
+ .btn--learnmore{
+     margin-left: -30px;
+ }
+ 
 }
+
+
+/* TINY SCREENS */
+@media(max-width:450px){ 
+nav li a{
+    display: none;
+}
+}
+
+
+/* BIG SCREENS */
+@media(min-width:1100px){
+.logo{
+     margin-right:200px;
+ }
+
+ .heroimg--1{
+    width: 530px;
+}
+
+.hero{
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 140px;
+    margin-left: 134px;
+}
+
+.hero--header{
+    font-size: 50px;
+}
+
+ .svgblob{
+    display: block;
+    width: 350px;
+    position: absolute;
+    right: 0px;
+    top: 339px;
+   }
+
+   .section--2{
+       margin-top: -10px;
+       display: flex;
+       justify-content: center;
+       gap: 40px;
+   }
+
+   .section--2_left{
+    padding-top: 50px;
+   }
+
+   .section--2_right{
+       width: 200px !important;
+   }
+}
+ 
