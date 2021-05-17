@@ -285,15 +285,24 @@ button a:hover{
 .whatweoffer{
     margin-top: 0px;
 }
- 
+
+ .offer--img{
+    width: 80px;
+}
+
+.offers div{
+    text-align: center;
+}
 }
 
 
 /* TINY SCREENS */
 @media(max-width:450px){ 
-nav li a{
+.nav--item{
     display: none;
 }
+
+ 
 
  .section--2_left{
      display: none;
