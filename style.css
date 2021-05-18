@@ -249,6 +249,73 @@ button a:hover{
 
 /* --------------------------------- */
  
+.heroimg--3{
+    width: 380px;
+    margin-top: -60px;
+ }
+
+.featurestext{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.features--row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.features--row div h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.features--img{
+    width: 400px;
+}
+
+
+
+.featurestext_div h6{
+     font-weight: 300;
+    width: 400px;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+.features--row-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    column-gap: 100px;
+     text-align: center;
+     align-items: center;
+         margin-top: -35px;
+}
+
+.features--row-2 div h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.featurestext_div--2 h6{
+     font-weight: 300;
+    width: 400px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 26px;
+}
+/* ---------------------------- */
 
 .hero--2_div{
     margin-left: 40px;
@@ -295,13 +362,45 @@ section .moreonissue{
 .issue-right h6{
     font-size: 13px;
     font-weight: 300;
-    width: 300px;
+    width: 384px;
     line-height: 21px;
 }
+
+.hr{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   width: 100%;
+   height: 15px;
+}
+
+.hrhr{
+    width: 70px;
+    height: 5px;
+    background:  linear-gradient(45deg, #236B28, #3C9B41);
+    border-radius: 20px;
+}
+
+.buttonsect{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+ 
 /* ------------------------- */
 
 /* NORMAL SCREEN */
 @media(max-width:800px){
+
+    .featurestext{
+   margin-right: 27px;
+   text-decoration: underline;
+ 
+}
+
  .btn--download{
    display: none; 
 }
@@ -441,11 +540,26 @@ section .moreonissue{
  .issue-right h3{
     font-size: 24px;
     font-weight: 600;
+        width: 321px;
 }
 
  .foodwasteimg{
     width: 30%;
     padding-right: 30px;
+}
+
+.heroimg--3{
+    width: 600px;
+    margin-top: -80px;
+}
+
+.featurestext{
+      font-size: 32px;
+}
+
+.features--row div h3{
+     
+    text-align: left;
 }
 
 }
