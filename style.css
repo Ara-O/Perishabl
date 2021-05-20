@@ -200,7 +200,7 @@ font-weight: 600;
 }
 
 .offer--img{
-    width: 130px;
+    width:100px;
 }
 
 .section--4{
@@ -209,11 +209,11 @@ font-weight: 600;
 }
 
 .trash{
-    width: 100px;
+    width: 80px;
 }
 
 .cash{
-    width: 105px;
+    width: 85px;
 }
 
 .offers div h6{
@@ -519,6 +519,12 @@ section .moreonissue{
    .section--3 h3{
      font-size: 34px;
    }
+
+   .features--row-2 div h3 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+}
 
    .svgblob--2{
     display: block;
